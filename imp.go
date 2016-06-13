@@ -9,7 +9,7 @@ const (
 	LocationBufferAd = 6
 )
 
-type DSPIMP struct {
+type Imp struct {
 	//广告位ID，广告位的唯一标识
 	SpaceId int `json:"space_id"`
 

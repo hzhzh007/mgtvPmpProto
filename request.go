@@ -1,6 +1,6 @@
 package mgtvPmpProto
 
-type DSPRequest struct {
+type Request struct {
 	//协议版本
 	Version int
 
