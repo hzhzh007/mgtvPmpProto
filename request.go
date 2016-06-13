@@ -12,10 +12,10 @@ type Request struct {
 	RequestType int `json:"request_type"`
 
 	//Imp对象数组，但仅包含一个Imp对象，描述广告位信息
-	Device DSPDevice `json:"device"`
+	Device Device `json:"device"`
 
 	//Device对象，描述设备信息
-	Imp []DSPIMP `json:"imp"`
+	Imp []Imp `json:"imp"`
 
 	//Video对象，描述视频信息
 	Video Video `json:"video"`

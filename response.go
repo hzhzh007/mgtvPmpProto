@@ -1,5 +1,10 @@
 package mgtvPmpProto
 
+const (
+	ResponseBidOk = 200
+	ResponseNoAd  = 204
+)
+
 type DSPResponse struct {
 	//协议版本号
 	Version int
