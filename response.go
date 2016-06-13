@@ -5,7 +5,7 @@ const (
 	ResponseNoAd  = 204
 )
 
-type DSPResponse struct {
+type Response struct {
 	//协议版本号
 	Version int
 
