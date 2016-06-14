@@ -1,7 +1,7 @@
 package mgtvPmpProto
 
 const (
-	ResponseBidOk = 200
+	ResponseBidOK = 200
 	ResponseNoAd  = 204
 )
 
