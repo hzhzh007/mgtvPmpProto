@@ -23,6 +23,6 @@ go get -u  "github.com/hzhzh007/mgtvPmpProto"
 
 # Others
 [广告行业分类](IndustryAdCategory.md)
-[视频分类](VideoCategory.md)
 
+[视频分类](VideoCategory.md)
 
