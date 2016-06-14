@@ -21,5 +21,8 @@ go get -u  "github.com/hzhzh007/mgtvPmpProto"
 - Capitalized abbreviations (e.g., AT, COPPA, PMP etc.)
 - Capitalized ID keys
 
+# Others
+[广告行业分类](IndustryAdCategory.md)
+[视频分类](VideoCategory.md)
 
 

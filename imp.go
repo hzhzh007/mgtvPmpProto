@@ -36,4 +36,7 @@ type Imp struct {
 
 	//视频广告位序 同类型下该广告位所处位序，从1开始，例：前贴第三个广告位，其位序位3
 	Order int
+
+	//Preferred Deal相关参数，参看pmp字段说明
+	Pmp Pmp `json:"pmp"`
 }

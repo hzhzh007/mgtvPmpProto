@@ -1,5 +1,23 @@
 package mgtvPmpProto
 
+const (
+	//设备网络类型
+	//未知
+	DeviceNetTypeUnknown = 0
+
+	//中国移动
+	DeviceNetTypeChinaMobile = 1
+
+	//中国联通
+	DeviceNetTypeChinaUnicom = 2
+
+	//中国电信
+	DeviceNetTypeChinaTelecom = 3
+
+	//互联网电视
+	DeviceNetTypeNetTV = 4
+)
+
 type Device struct {
 	//地理位置-经度
 	Len string `json:"len"`

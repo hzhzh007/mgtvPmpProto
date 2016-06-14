@@ -12,8 +12,11 @@ const (
 )
 
 type IURL struct {
-	Event int //0-开始, 1-四分之一, 2-二分之一, 3-四分之三, 4-结束
-	Url   string
+	//0-开始, 1-四分之一, 2-二分之一, 3-四分之三, 4-结束
+	Event int
+	//DSP曝光监测地址必须放该数组第一位，并且该监测地址中包要含价格宏（当次广告成交价）
+	//例：http://www.xxx.com/jzh_show?c=%%SETTLE_PRICE%%，如果DSP还有其他曝光监测，其监测链接中不可在设置该价格宏
+	Url string
 }
 
 type ADS struct {
@@ -49,4 +52,7 @@ type ADS struct {
 
 	//创意高度
 	Height int `json:"height"`
+
+	//DSP参加的deal id
+	DealId int `json:"dealid"`
 }

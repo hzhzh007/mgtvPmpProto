@@ -1,5 +1,13 @@
 package mgtvPmpProto
 
+const (
+	//片源，1-正片
+	VideoNormalVideoType = 1
+
+	//片源，2-短片
+	VideoShortVideoType = 1
+)
+
 type Video struct {
 	//视频ID
 	VideoId int `json:"video_id"`
