@@ -1,6 +1,6 @@
 # MGTV PMP protocol
 
-[![GoDoc](https://godoc.org/github.com/hzhzh007/mgtvPmpProto?status.svg)](https://godoc.org/github.com/hzhzh007/mgtvPmpProto)
+[![GoDoc](https://godoc.org/github.com/hzhzh007/mgtvPmpProto?status.svg)](https://godoc.org/github.com/hzhzh007/mgtvPmpProto) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)]() [![BuildStatus](https://travis-ci.org/hzhzh007/mgtvPmpProto.svg?branch=master)](https://travis-ci.org/hzhzh007/mgtvPmpProto) [![Coverage](http://gocover.io/_badge/github.com/hzhzh007/mgtvPmpProto)](http://gocover.io/github.com/hzhzh007/mgtvPmpProto)
 
 
 The exchange protocol of Dsp and MGTV pmp, version of 1.0
