@@ -1,7 +1,7 @@
 package mgtvPmpProto
 
 /*
-{
+example {
     "version": 3,
     "bid": "fa8a8a16d5cd46159765688d79337806",
     "request_type": 0,
