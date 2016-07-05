@@ -66,7 +66,7 @@ type Device struct {
 
 	//设备平台类型，1-PC,21-安卓H5平板，22-安卓H5手机，23-苹果H5平板，
 	//24-苹果H5手机，31-安卓APP平板，32-安卓APP手机，33-苹果APP平板，
-	//34-苹果APP手机，41-小米手机APP_SDK,42-百度视频手机APP_SDK,100-OTT
+	//34-苹果APP手机，41-小米手机APP_SDK,42-百度视频手机APP_SDK,100-OTT，101-new_OTT
 	Type int `json:"type"`
 
 	//客户端版本
