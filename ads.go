@@ -54,5 +54,5 @@ type ADS struct {
 	Height int `json:"height"`
 
 	//DSP参加的deal id
-	DealId int `json:"dealid,omitempty"`
+	DealId string `json:"dealid,omitempty"`
 }
