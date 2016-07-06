@@ -26,3 +26,5 @@ go get -u  "github.com/hzhzh007/mgtvPmpProto"
 
 [视频分类](VideoCategory.md)
 
+[当前广告位信息](AdInfo.md)
+
