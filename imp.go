@@ -11,7 +11,7 @@ const (
 
 type Imp struct {
 	//广告位ID，广告位的唯一标识
-	SpaceId int `json:"space_id"`
+	SpaceId string `json:"space_id"`
 
 	//广告位宽度
 	Width int `json:"width"`
@@ -37,6 +37,6 @@ type Imp struct {
 	//视频广告位序 同类型下该广告位所处位序，从1开始，例：前贴第三个广告位，其位序位3
 	Order int
 
-	//Preferred Deal相关参数，参看pmp字段说明
-	Pmp Pmp `json:"pmp"`
+	//Preferred Deal相关参数
+	Pmp Deals `json:"pmp"`
 }
