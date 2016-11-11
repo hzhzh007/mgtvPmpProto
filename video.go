@@ -20,6 +20,9 @@ type Video struct {
 
 	//视频所属合集名称
 	CollectionName string `json:"collection_name"`
+	
+	//频道id
+	ChannelId int `json:"channel_id"`
 
 	//视频分类ID列表
 	ItemIds string `json:"item_ids"`
