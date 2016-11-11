@@ -54,6 +54,9 @@ type Device struct {
 
 	//访问者的IP地址
 	Ip string
+	
+	// citycode
+	CityCode int `json:"city_code"`
 
 	//访问者的代理浏览器类型
 	Ua string
