@@ -27,7 +27,7 @@ type ADS struct {
 	AdUrl string `json:"ad_url"`
 	
 	// 物料在adx的id
-	CreativeId string `json:"creative_url"`
+	CreativeId string `json:"creative_id"`
 
 	//广告的目标跳转地址，需要http://或者https://协议头
 	ClickThroughUrl string `json:"click_through_url"`
