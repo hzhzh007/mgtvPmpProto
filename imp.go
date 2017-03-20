@@ -39,4 +39,10 @@ type Imp struct {
 
 	//Preferred Deal相关参数
 	Pmp Deals `json:"pmp"`
+	
+	//视频广告最短播放时长，单位为秒
+	MinPlayTime int `json:min_playtime`
+
+	//视频广告最大播放时长，单位为秒
+	MaxPlayTime int `json:max_playtime`
 }
