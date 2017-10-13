@@ -58,4 +58,19 @@ type ADS struct {
 
 	//DSP参加的deal id
 	DealId string `json:"dealid,omitempty"`
+
+        //广告描述
+	Ad_desc string `json:"ad_desc"`
+	
+	//广告样式
+	Style int `json:"style"`
+	
+	//落地页打开方式
+	Land_open_mode int `json:"land_open_mode"`
+	
+	//点击行为
+	Click_action int `json:"click_action"`
+	
+	//广告商名称
+	Advertiser string `json:"advertiser"`
 }
